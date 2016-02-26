@@ -1,0 +1,12 @@
+{
+  "name": "outing-go",
+  "app_id": "a4a4d1b7",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

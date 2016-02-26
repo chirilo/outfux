@@ -1,0 +1,162 @@
+.div-img {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-page {
+  .banner-login {
+    height: 150px;
+    position: absolute;
+    width: 100%;
+  }
+  .header-login {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    height: 150px;
+    position: relative;
+    a {
+      display: block;
+      width: 50%;
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 15px 0;
+      color: #9E9E9E;
+      border-top: 1px solid rgba(221, 221, 221, 0.23);
+      position: relative;
+      i {
+        display: none;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        bottom: -10px;
+      }
+      &.active {
+        color: #fff;
+        i {
+          display: block;
+        }
+      }
+    }
+  }
+  .scroll {
+    height: 100%;
+  }
+  .slider-slides {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .logo {
+    font-family: cursive;
+    font-size: 35px;
+  }
+  .form-login {
+    padding: 20px 30px;
+    input {
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+      line-height: 48px;
+      height: 48px;
+      text-align: center;
+      &::-webkit-input-placeholder {
+        color: #444;
+      }
+
+      &:-moz-placeholder { /* Firefox 18- */
+        color: #444;
+      }
+
+      &::-moz-placeholder {  /* Firefox 19+ */
+        color: #444;
+      }
+
+      &:-ms-input-placeholder {
+        color: #444;
+      }
+    }
+  }
+  .login-button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    button {
+      border-radius: 30px;
+      min-width: 200px !important;
+    }
+  }
+  .login-social {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    font-size: 20px;
+    background: #3b5998;
+    color: #fff;
+    .instagram {
+      border-radius: 0 30px 30px 0;
+      background: #125688;
+    }
+  }
+  .text-login {
+    text-align: center;
+    padding: 10px;
+  }
+  .img-responsive {
+    max-width: 100%;
+  }
+}
+.intro {
+  .slider {
+    height: 100%;
+  }
+  .logo {
+    font-family: cursive;
+    font-size: 35px;
+  }
+  .text-intro {
+    text-align: center;
+    padding: 0 40px;
+    h3 {
+      color: #fff;
+    }
+    p {
+      color: #ddd;
+    }
+  }
+  .background-intro {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .slider-pager {
+    bottom: 60px;
+    .slider-pager-page {
+      color: #fff;
+    }
+  }
+  .text-skip {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    span {
+      display: inline-block;
+      padding: 15px;
+      margin-bottom: 10px;
+    }
+  }
+}

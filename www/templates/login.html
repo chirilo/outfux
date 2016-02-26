@@ -1,0 +1,64 @@
+<ion-view class="login-page">
+    <ion-content>
+        <div class="banner-login div-img" style="background-image: url('img/logo.png')">
+        </div>
+        <div fit vertical layout>
+            <div class="header-login" vertical layout>
+                <div flex class="logo balanced" horizontal center-justified center layout>
+                    <img src="img/logo.png" width="60%" />
+                </div>
+                
+            </div>
+            <div class="action-login" horizontal layout>
+                <a ng-class="{active: !data.view}" ng-click="nextSlide(0)">
+                    Log In
+                </a>
+                <a ng-class="{active: data.view}" ng-click="nextSlide(1)">
+                    Sign Up
+                </a>
+            </div>
+            <div class="action-facebook-login" horizontal center-justified center layout>
+                <img src="img/facebook-button.png" width="80%" height="55" />
+            </div>
+            <ion-slide-box on-slide-changed="slideHasChanged($index)" flex show-pager="false">
+                <ion-slide>
+                    <div class="form-login">
+                        <center><span>or</span></center>
+                        <input type="text" placeholder="E-mail" ng-model="data.user.email"/>
+                        <input type="password" placeholder="Password" ng-model="data.user.password"/>
+                    </div>
+                    <div class="login-button">
+                        <button class="button button-stable" disabled>
+                            Login
+                        </button>
+                    </div> 
+                    <div class="text-login">
+                        Forgot Password
+                    </div>
+
+                </ion-slide>
+                <ion-slide>
+                    <div class="form-login">
+                        <center>or <span style="color: rgb(239, 75, 40);">Sign Up with your email address. </span></center>
+                        <input type="text" placeholder="E-mail"/>
+                        <input type="password" placeholder="Password"/>
+                    </div>
+                    <div class="login-button">
+                        <button class="button button-light" disabled>
+                            Create Account
+                        </button>
+                    </div>
+
+                    <!-- <div class="login-social" horizontal layout>
+                        <div flex ng-click="loginFacebook()">
+                            <i class="ion ion-social-facebook"></i>
+                        </div>
+                        <div flex class="instagram" ng-click="loginInstagram()">
+                            <i class="ion ion-social-instagram"></i>
+                        </div>
+                    </div> -->
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+    </ion-content>
+</ion-view>

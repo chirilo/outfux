@@ -1,0 +1,22 @@
+<ion-view class="intro">
+    <ion-content scroll="false">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide class="item-intro div-img" ng-style="{'background-image': 'url(\'' + item.url + '\')'}" ng-repeat="item in data.items" vertical layout>
+                <div class="background-intro"></div>
+                <div flex class="logo balanced" horizontal center-justified center layout>
+                    Muslim Chef
+                </div>
+                <div flex vertical layout>
+                    <div flex class="text-intro">
+                        <h3>{{item.title}}</h3>
+                        <p>{{item.description}}</p>
+                    </div>
+                    <div class="text-skip">
+                        <span ng-click="goLogin()">Skip</span>
+                    </div>
+                </div>
+            </ion-slide>
+
+        </ion-slide-box>
+    </ion-content>
+</ion-view>

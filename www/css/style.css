@@ -1,0 +1,204 @@
+.div-img {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-page .banner-login {
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+.login-page .header-login {
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  background-color: rgb(239, 75, 40);
+  margin: 0;
+  height: 150px;
+  position: relative;
+}
+
+.login-page .action-login {
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  background-color: rgb(239, 75, 40);
+  margin: 0;
+  height: 50px;
+  position: relative;
+}
+
+.login-page .action-facebook-login{
+  margin-top: 20px;
+  position: relative;
+}
+
+.login-page .action-facebook-login img{
+  /*margin-bottom: 10px;*/
+}
+
+.login-page .header-login a {
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 15px 0;
+  color: #9E9E9E;
+  border-top: 1px solid rgba(221, 221, 221, 0.23);
+  position: relative;
+}
+
+.login-page .action-login a{
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 0;
+  color: #fff;
+  /*border-top: 1px solid rgba(221, 221, 221, 0.23);*/
+  position: relative;
+}
+
+.login-page .header-login a i, .login-page .action-login a i {
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  bottom: -10px;
+}
+.login-page .action-login a.active{
+  color: red;
+  background-color: #fff;
+}
+.login-page .header-login a.active {
+  color: #fff;
+}
+.login-page .header-login a.active i {
+  display: block;
+}
+.login-page .scroll {
+  height: 100%;
+}
+.login-page .slider-slides {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.login-page .logo {
+  font-family: cursive;
+  font-size: 35px;
+}
+.login-page .form-login {
+  /*padding: 20px 30px;*/
+  padding-top: 20px;
+}
+.login-page .form-login input {
+  /*border-bottom: 1px solid #ddd;*/
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  line-height: 48px;
+  height: 48px;
+  text-align: left;
+  margin: 10px 0px 10px 0px;
+  padding-left: 35px;
+}
+.login-page .form-login input::-webkit-input-placeholder {
+  color: #444;
+}
+.login-page .form-login input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #444;
+}
+.login-page .form-login input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #444;
+}
+.login-page .form-login input:-ms-input-placeholder {
+  color: #444;
+}
+.login-page .login-button {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.login-page .login-button button, .login-page .login-button button:hover {
+  /*border-radius: 30px;*/
+  min-width: 300px !important;
+  background: rgb(239, 75, 40);
+  color: #fff;
+  font-weight: 600;
+  border-color: transparent;
+}
+.login-page .login-social {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 30px;
+  font-size: 20px;
+  background: #3b5998;
+  color: #fff;
+}
+.login-page .login-social .instagram {
+  border-radius: 0 30px 30px 0;
+  background: #125688;
+}
+.login-page .text-login {
+  text-align: center;
+  padding: 10px;
+}
+.login-page .img-responsive {
+  max-width: 100%;
+}
+.intro .slider {
+  height: 100%;
+}
+.intro .logo {
+  font-family: cursive;
+  font-size: 35px;
+}
+.intro .text-intro {
+  text-align: center;
+  padding: 0 40px;
+}
+.intro .text-intro h3 {
+  color: #fff;
+}
+.intro .text-intro p {
+  color: #ddd;
+}
+.intro .background-intro {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.intro .slider-pager {
+  bottom: 60px;
+}
+.intro .slider-pager .slider-pager-page {
+  color: #fff;
+}
+.intro .text-skip {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+.intro .text-skip span {
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 10px;
+}
